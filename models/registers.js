@@ -10,7 +10,7 @@ const bankDataSchema = new mongoose.Schema({
     address:"string",
     email:"string" 
 })
-
+s
 const AccountData = new mongoose.model("AccountData",bankDataSchema);
 
 module.exports = AccountData;
